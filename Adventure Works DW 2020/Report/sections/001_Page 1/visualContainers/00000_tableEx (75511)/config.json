@@ -20,6 +20,9 @@
           "queryRef": "Customer.Customer"
         },
         {
+          "queryRef": "Date.Fiscal Year"
+        },
+        {
           "queryRef": "Sum(Sales.Sales Amount)"
         }
       ]
@@ -35,6 +38,11 @@
         {
           "Name": "s",
           "Entity": "Sales",
+          "Type": 0
+        },
+        {
+          "Name": "d",
+          "Entity": "Date",
           "Type": 0
         }
       ],
@@ -67,6 +75,38 @@
           },
           "Name": "Sum(Sales.Sales Amount)",
           "NativeReferenceName": "Sales Amount"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "Fiscal Year"
+          },
+          "Name": "Date.Fiscal Year",
+          "NativeReferenceName": "Fiscal Year"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "s"
+                    }
+                  },
+                  "Property": "Sales Amount"
+                }
+              },
+              "Function": 0
+            }
+          }
         }
       ]
     },
