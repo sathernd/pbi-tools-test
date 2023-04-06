@@ -2,7 +2,6 @@
   "name": "Postal Code",
   "dataType": "string",
   "sourceColumn": "Postal Code",
-  "dataCategory": "PostalCode",
   "summarizeBy": "none",
   "annotations": [
     {

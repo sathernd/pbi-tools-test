@@ -2,7 +2,6 @@
   "name": "Product",
   "dataType": "string",
   "sourceColumn": "Product",
-  "isDefaultLabel": true,
   "summarizeBy": "none",
   "annotations": [
     {

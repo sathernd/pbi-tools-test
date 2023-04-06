@@ -2,7 +2,7 @@
   "name": "Product Standard Cost",
   "dataType": "decimal",
   "sourceColumn": "Product Standard Cost",
-  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
   "summarizeBy": "sum",
   "annotations": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "name": "PBI_FormatHint",
-      "value": "{\"currencyCulture\":\"en-US\"}"
+      "value": "{\"currencyCulture\":\"en-GB\"}"
     }
   ]
 }

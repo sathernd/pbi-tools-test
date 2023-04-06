@@ -2,28 +2,13 @@
   "name": "Geography",
   "levels": [
     {
-      "name": "Country-Region",
-      "ordinal": 0,
-      "column": "Country-Region"
-    },
-    {
-      "name": "State-Province",
-      "ordinal": 1,
-      "column": "State-Province"
-    },
-    {
       "name": "City",
-      "ordinal": 2,
+      "ordinal": 0,
       "column": "City"
     },
     {
-      "name": "Postal Code",
-      "ordinal": 3,
-      "column": "Postal Code"
-    },
-    {
       "name": "Customer",
-      "ordinal": 4,
+      "ordinal": 1,
       "column": "Customer"
     }
   ]

@@ -1,9 +1,8 @@
 {
   "name": "Date",
   "dataType": "dateTime",
-  "isKey": true,
   "sourceColumn": "Date",
-  "formatString": "Short Date",
+  "formatString": "Long Date",
   "summarizeBy": "none",
   "annotations": [
     {

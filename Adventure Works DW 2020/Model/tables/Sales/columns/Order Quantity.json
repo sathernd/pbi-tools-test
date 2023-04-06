@@ -2,7 +2,7 @@
   "name": "Order Quantity",
   "dataType": "int64",
   "sourceColumn": "Order Quantity",
-  "formatString": "#,0",
+  "formatString": "0",
   "summarizeBy": "sum",
   "annotations": [
     {

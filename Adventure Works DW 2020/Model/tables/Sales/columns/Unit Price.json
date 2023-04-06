@@ -2,16 +2,16 @@
   "name": "Unit Price",
   "dataType": "decimal",
   "sourceColumn": "Unit Price",
-  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
-  "summarizeBy": "average",
+  "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+  "summarizeBy": "sum",
   "annotations": [
     {
       "name": "SummarizationSetBy",
-      "value": "User"
+      "value": "Automatic"
     },
     {
       "name": "PBI_FormatHint",
-      "value": "{\"currencyCulture\":\"en-US\"}"
+      "value": "{\"currencyCulture\":\"en-GB\"}"
     }
   ]
 }

@@ -2,7 +2,6 @@
   "name": "Sales Order Line",
   "dataType": "string",
   "sourceColumn": "Sales Order Line",
-  "sortByColumn": "SalesOrderLineKey",
   "isDefaultLabel": true,
   "summarizeBy": "none",
   "annotations": [

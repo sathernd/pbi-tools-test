@@ -5,14 +5,15 @@
   "sourceColumn": "ShipDateKey",
   "formatString": "0",
   "summarizeBy": "count",
+  "changedProperties": [
+    {
+      "property": "IsHidden"
+    }
+  ],
   "annotations": [
     {
       "name": "SummarizationSetBy",
       "value": "Automatic"
-    },
-    {
-      "name": "PBI_ChangedProperties",
-      "value": "[\"IsHidden\"]"
     }
   ]
 }

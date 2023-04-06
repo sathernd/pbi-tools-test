@@ -1,6 +1,6 @@
 {
   "name": "Adventure Works DW 2020",
-  "compatibilityLevel": 1550,
+  "compatibilityLevel": 1567,
   "model": {
     "culture": "en-US",
     "dataAccessOptions": {
@@ -73,42 +73,9 @@
     ],
     "expressions": [
       {
-        "name": "SqlServerInstance",
+        "name": "HttpSource",
         "kind": "m",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Text"
-          }
-        ]
-      },
-      {
-        "name": "SqlServerDatabase",
-        "kind": "m",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Text"
-          }
-        ]
-      },
-      {
-        "name": "Culture",
-        "description": "Used to format month names in the Date query.",
-        "kind": "m",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Text"
@@ -123,11 +90,11 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.109.6661.0001 (Main)"
+        "value": "2.115.1006.0 (23.03)"
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"SqlServerInstance\",\"SqlServerDatabase\",\"Culture\",\"Customer\",\"Date\",\"Product\",\"Reseller\",\"Sales\",\"Sales Order\",\"Sales Territory\"]"
+        "value": "[\"HttpSource\",\"Customer\",\"Date\",\"Product\",\"Reseller\",\"Sales\",\"Sales Order\",\"Sales Territory\"]"
       }
     ]
   }

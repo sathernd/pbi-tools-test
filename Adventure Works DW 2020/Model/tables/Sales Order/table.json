@@ -2,7 +2,7 @@
   "name": "Sales Order",
   "partitions": [
     {
-      "name": "Sales Order-3ce1b467-3e1b-4732-b605-3e94fee75991",
+      "name": "Sales Order",
       "mode": "import",
       "source": {
         "type": "m"
@@ -10,10 +10,6 @@
     }
   ],
   "annotations": [
-    {
-      "name": "PBI_NavigationStepName",
-      "value": "Navigation"
-    },
     {
       "name": "PBI_ResultType",
       "value": "Table"

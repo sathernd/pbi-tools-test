@@ -2,7 +2,6 @@
   "name": "Reseller",
   "dataType": "string",
   "sourceColumn": "Reseller",
-  "isDefaultLabel": true,
   "summarizeBy": "none",
   "annotations": [
     {

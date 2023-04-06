@@ -2,7 +2,6 @@
   "name": "Region",
   "dataType": "string",
   "sourceColumn": "Region",
-  "isDefaultLabel": true,
   "summarizeBy": "none",
   "annotations": [
     {

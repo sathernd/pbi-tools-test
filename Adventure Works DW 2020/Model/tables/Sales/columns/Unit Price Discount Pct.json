@@ -2,12 +2,15 @@
   "name": "Unit Price Discount Pct",
   "dataType": "double",
   "sourceColumn": "Unit Price Discount Pct",
-  "formatString": "0.00%;-0.00%;0.00%",
-  "summarizeBy": "none",
+  "summarizeBy": "sum",
   "annotations": [
     {
       "name": "SummarizationSetBy",
-      "value": "User"
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
     }
   ]
 }

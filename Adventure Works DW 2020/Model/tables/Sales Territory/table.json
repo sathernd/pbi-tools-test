@@ -2,7 +2,7 @@
   "name": "Sales Territory",
   "partitions": [
     {
-      "name": "Sales Territory-86e24776-e692-45a5-9e92-91af2c36c1a6",
+      "name": "Sales Territory",
       "mode": "import",
       "source": {
         "type": "m"
@@ -10,10 +10,6 @@
     }
   ],
   "annotations": [
-    {
-      "name": "PBI_NavigationStepName",
-      "value": "Navigation"
-    },
     {
       "name": "PBI_ResultType",
       "value": "Table"

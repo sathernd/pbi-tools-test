@@ -5,14 +5,15 @@
   "sourceColumn": "ResellerKey",
   "formatString": "0",
   "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "IsHidden"
+    }
+  ],
   "annotations": [
     {
       "name": "SummarizationSetBy",
       "value": "Automatic"
-    },
-    {
-      "name": "PBI_ChangedProperties",
-      "value": "[\"IsHidden\"]"
     }
   ]
 }
